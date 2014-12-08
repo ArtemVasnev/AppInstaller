@@ -13,6 +13,12 @@
 		9F1E7F231A3620DC002A3E7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1E7F221A3620DC002A3E7E /* Images.xcassets */; };
 		9F1E7F261A3620DC002A3E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1E7F241A3620DC002A3E7E /* Main.storyboard */; };
 		9F1E7F321A3620DC002A3E7E /* AppInstallerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E7F311A3620DC002A3E7E /* AppInstallerTests.m */; };
+		9F1E7F3C1A3620EB002A3E7E /* AdventureTime.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F1E7F3B1A3620EB002A3E7E /* AdventureTime.gif */; };
+		9F1E7F3F1A36213D002A3E7E /* DragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E7F3E1A36213D002A3E7E /* DragView.m */; };
+		9F1E7F421A362148002A3E7E /* LibraryChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E7F411A362148002A3E7E /* LibraryChecker.m */; };
+		9F1E7F441A362184002A3E7E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1E7F431A362184002A3E7E /* WebKit.framework */; };
+		9F1E7F461A362206002A3E7E /* Libraries in Resources */ = {isa = PBXBuildFile; fileRef = 9F1E7F451A362206002A3E7E /* Libraries */; };
+		9F1E7F481A362296002A3E7E /* ideviceinstaller in Resources */ = {isa = PBXBuildFile; fileRef = 9F1E7F471A362296002A3E7E /* ideviceinstaller */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,14 @@
 		9F1E7F2B1A3620DC002A3E7E /* AppInstallerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppInstallerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1E7F301A3620DC002A3E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F1E7F311A3620DC002A3E7E /* AppInstallerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppInstallerTests.m; sourceTree = "<group>"; };
+		9F1E7F3B1A3620EB002A3E7E /* AdventureTime.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AdventureTime.gif; sourceTree = "<group>"; };
+		9F1E7F3D1A36213D002A3E7E /* DragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragView.h; sourceTree = "<group>"; };
+		9F1E7F3E1A36213D002A3E7E /* DragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragView.m; sourceTree = "<group>"; };
+		9F1E7F401A362148002A3E7E /* LibraryChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryChecker.h; sourceTree = "<group>"; };
+		9F1E7F411A362148002A3E7E /* LibraryChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryChecker.m; sourceTree = "<group>"; };
+		9F1E7F431A362184002A3E7E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		9F1E7F451A362206002A3E7E /* Libraries */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Libraries; sourceTree = "<group>"; };
+		9F1E7F471A362296002A3E7E /* ideviceinstaller */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ideviceinstaller; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1E7F441A362184002A3E7E /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 		9F1E7F0C1A3620DC002A3E7E = {
 			isa = PBXGroup;
 			children = (
+				9F1E7F431A362184002A3E7E /* WebKit.framework */,
 				9F1E7F171A3620DC002A3E7E /* AppInstaller */,
 				9F1E7F2E1A3620DC002A3E7E /* AppInstallerTests */,
 				9F1E7F161A3620DC002A3E7E /* Products */,
@@ -83,6 +99,10 @@
 				9F1E7F1B1A3620DC002A3E7E /* AppDelegate.m */,
 				9F1E7F1F1A3620DC002A3E7E /* ViewController.h */,
 				9F1E7F201A3620DC002A3E7E /* ViewController.m */,
+				9F1E7F3D1A36213D002A3E7E /* DragView.h */,
+				9F1E7F3E1A36213D002A3E7E /* DragView.m */,
+				9F1E7F401A362148002A3E7E /* LibraryChecker.h */,
+				9F1E7F411A362148002A3E7E /* LibraryChecker.m */,
 				9F1E7F221A3620DC002A3E7E /* Images.xcassets */,
 				9F1E7F241A3620DC002A3E7E /* Main.storyboard */,
 				9F1E7F181A3620DC002A3E7E /* Supporting Files */,
@@ -93,6 +113,9 @@
 		9F1E7F181A3620DC002A3E7E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9F1E7F471A362296002A3E7E /* ideviceinstaller */,
+				9F1E7F451A362206002A3E7E /* Libraries */,
+				9F1E7F3B1A3620EB002A3E7E /* AdventureTime.gif */,
 				9F1E7F191A3620DC002A3E7E /* Info.plist */,
 				9F1E7F1D1A3620DC002A3E7E /* main.m */,
 			);
@@ -196,7 +219,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1E7F3C1A3620EB002A3E7E /* AdventureTime.gif in Resources */,
+				9F1E7F481A362296002A3E7E /* ideviceinstaller in Resources */,
 				9F1E7F231A3620DC002A3E7E /* Images.xcassets in Resources */,
+				9F1E7F461A362206002A3E7E /* Libraries in Resources */,
 				9F1E7F261A3620DC002A3E7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F1E7F211A3620DC002A3E7E /* ViewController.m in Sources */,
+				9F1E7F421A362148002A3E7E /* LibraryChecker.m in Sources */,
 				9F1E7F1E1A3620DC002A3E7E /* main.m in Sources */,
+				9F1E7F3F1A36213D002A3E7E /* DragView.m in Sources */,
 				9F1E7F1C1A3620DC002A3E7E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +362,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = AppInstaller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -345,6 +374,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = AppInstaller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
